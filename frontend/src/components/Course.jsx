@@ -10,7 +10,7 @@ function Course() {
         const getBook = async () => {
             try {
                 const res = await axios.get("http://localhost:3000/book");
-                console.log(res.data);
+                // console.log(res.data);
                 setBook(res.data);
             } catch (error) {
                 console.log(error);
@@ -21,9 +21,11 @@ function Course() {
 
     return (
         <>
-            <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
-                <div className='mt-28 items-center justify-center text-center'>
-                    <h1 className='text-2xl md:text-4xl'>We're delighted to have you <span className='text-pink-500'>Here! :)</span></h1>
+            <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 pt-12'>
+                <div className='mt-16 items-center justify-center text-center'>
+                    <h1 className='text-2xl md:text-4xl'>We're delighted to have you
+                        <span className='text-pink-500'> Here! :)</span>
+                    </h1>
                     <p className='mt-12'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse obcaecati explicabo nobis placeat voluptatem quam, ex aperiam. Neque ducimus optio dolore voluptatem. Sed expedita libero numquam molestias aperiam, aut eaque molestiae, earum quidem a soluta, dignissimos blanditiis voluptas non qui officia aliquam. Expedita nihil facere consequatur, quisquam nemo
                     </p>

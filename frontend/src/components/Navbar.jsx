@@ -71,7 +71,7 @@ function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
-                        <a className="text-2xl font-bold cursor-pointer">BookStore</a>
+                        <a className="text-2xl font-bold cursor-pointer text-pink-500">BookStore</a>
                     </div>
                     <div className="navbar-end space-x-3">
                         <div className="navbar-center hidden lg:flex">
@@ -124,7 +124,7 @@ function Navbar() {
                             authUser ? (<Logout />) : (
                                 <div>
                                     <a
-                                        className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+                                        className="bg-pink-500 text-white px-3 py-2 rounded-md hover:bg-pink-600 duration-300 cursor-pointer"
                                         onClick={() => document.getElementById("my_modal_3").showModal()}
                                     >
                                         Login
