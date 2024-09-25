@@ -8,7 +8,10 @@ function Banner() {
                 <div className='w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-32'>
                     <div className='space-y-12'>
                         <h1 className='text-4xl font-bold'>Hello, Welcome here to learn something <span className='text-pink-500'>new everyday!!!</span></h1>
-                        <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, obcaecati eveniet? Earum esse, in nesciunt similique dolor cumque aut ullam totam laborum sed provident, optio distinctio obcaecati ut veritatis! Excepturi!
+                        <p className='text-xl text-gray-600'>
+                            Discover a wide range of free courses that will empower you with knowledge and skills across various domains.
+                            Join our community of learners and take the first step towards achieving your goals. Learning has never been
+                            this exciting and accessible!
                         </p>
                         <label className="input input-bordered flex items-center gap-2">
                             <svg
@@ -24,7 +27,7 @@ function Banner() {
                             <input type="text" className="grow" placeholder="Email" />
                         </label>
                     </div>
-                    <button className="btn mt-6 btn-secondary">Secondary</button>
+                    <button className="btn mt-6 btn-secondary">Subscribe Now</button>
                 </div>
                 <div className='order-1 w-full md:w-1/2 mt-20 ml-20'>
                     <img src={banner} className="w-92 h-92" alt="" />

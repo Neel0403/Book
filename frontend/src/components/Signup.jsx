@@ -4,6 +4,7 @@ import Login from './Login'
 import { useForm } from "react-hook-form"
 import axios from "axios"
 import toast from 'react-hot-toast'
+import Navbar from './Navbar'
 
 function Signup() {
     const location = useLocation();
@@ -41,6 +42,7 @@ function Signup() {
 
     return (
         <>
+            <Navbar />
             <div className='flex h-screen items-center justify-center'>
                 <div className="w-[600px] dark:bg-slate-900">
                     <div className="modal-box dark:bg-slate-900 dark:text-white">
@@ -109,7 +111,7 @@ function Signup() {
                             {/* BUTTON */}
                             <div className='flex justify-around mt-4'>
                                 <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200'>Signup</button>
-                                <p className='text-xl'>
+                                <div className='text-xl'>
                                     Have account?
                                     <button
                                         className='underline text-blue-500 cursor-pointer'
@@ -118,7 +120,7 @@ function Signup() {
                                         Login
                                     </button>
                                     <Login />
-                                </p>
+                                </div>
                             </div>
                         </form>
                     </div>

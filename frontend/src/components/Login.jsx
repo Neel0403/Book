@@ -61,7 +61,7 @@ function Login() {
                             <input
                                 type="email"
                                 placeholder='Enter your email'
-                                className='w-80 px-3 py-1 border rounded-md outline-none dark:bg-slate-900 text-white'
+                                className='w-80 px-3 py-1 border rounded-md outline-none text-black dark:bg-slate-900 dark:text-white'
                                 {...register("email", { required: true })}
                             />
                             <br />
@@ -79,7 +79,7 @@ function Login() {
                             <input
                                 type="password"
                                 placeholder='Enter your password'
-                                className='w-80 px-3 py-1 border rounded-md outline-none dark:bg-slate-900 text-white'
+                                className='w-80 px-3 py-1 border rounded-md outline-none text-black dark:bg-slate-900 dark:text-white'
                                 {...register("password", { required: true })}
                             />
                             <br />
@@ -93,12 +93,12 @@ function Login() {
                         {/* BUTTON */}
                         <div className='flex justify-around mt-6'>
                             <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200'>Login</button>
-                            <p>
+                            <div>
                                 Not registered?{" "}
                                 <Link to="/signup" className='underline text-blue-500 cursor-pointer'>
                                     Signup
                                 </Link>
-                            </p>
+                            </div>
                         </div>
                     </form>
                 </div>

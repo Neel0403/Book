@@ -1,90 +1,82 @@
 [
     {
         "id": 1,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "The Enchanted Forest",
+        "description": "Join a young hero on a magical adventure through an enchanted forest filled with mystical creatures and hidden treasures.",
         "price": 0,
         "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 2,
-        "name": "Sports Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "The Art of Sports",
+        "description": "Discover the secrets behind the success of legendary athletes and learn the art of sportsmanship through engaging stories and techniques.",
         "price": 100,
-        "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 3,
-        "name": "Music Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "Melodies of the Heart",
+        "description": "A heartfelt collection of songs that resonate with the soul, perfect for musicians and music lovers alike.",
         "price": 0,
-        "category": "Song",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "category": "Music",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 4,
-        "name": "Food Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "Culinary Delights",
+        "description": "Explore an array of delicious recipes from different cultures, featuring step-by-step instructions for home cooks.",
         "price": 400,
         "category": "Food",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 5,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "Adventures in Storyland",
+        "description": "Embark on thrilling adventures through beloved tales and fables, designed to ignite the imagination of young readers.",
         "price": 0,
         "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 6,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "Fantasy Realms",
+        "description": "Dive into a collection of captivating fantasy stories featuring brave heroes and epic quests in mystical worlds.",
         "price": 0,
         "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 7,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "The World of Sports",
+        "description": "A comprehensive history of sports, showcasing the evolution of various games and their cultural significance.",
         "price": 0,
-        "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 8,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "Culinary Classics",
+        "description": "Master the art of cooking with these classic recipes, from appetizers to desserts, perfect for any occasion.",
         "price": 0,
-        "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "category": "Food",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 9,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "Songbook for Beginners",
+        "description": "A practical guide for beginners, featuring popular songs with easy-to-follow chords and lyrics.",
         "price": 0,
-        "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "category": "Music",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     },
     {
         "id": 10,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "name": "Timeless Stories",
+        "description": "A delightful collection of classic stories for all ages, designed to inspire and entertain readers of every generation.",
         "price": 0,
         "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
-    },
-    {
-        "id": 1,
-        "name": "Story Book",
-        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-        "price": 0,
-        "category": "Free",
-        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721654660~exp=1721658260~hmac=150960d025866878f2fed22e3ae6adb4e435082081faf96b75c81f36e7239aa0&w=740"
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
     }
 ]

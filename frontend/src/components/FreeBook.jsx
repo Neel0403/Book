@@ -12,9 +12,7 @@ function FreeBook() {
         const getBook = async () => {
             try {
                 const res = await axios.get("http://localhost:3000/book")
-                console.log(res);
-                console.log(res.data)
-                const data = res.data.filter((data)=>data.category==="Free")
+                const data = res.data.filter((data) => data.category === "Free")
                 setBook(data)
             } catch (error) {
                 console.log(error);
@@ -62,8 +60,11 @@ function FreeBook() {
             <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
                 <div>
                     <h1 className='font-semibold text-xl pb-2'>Free Offered Courses</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio alias incidunt veniam omnis ratione ipsum.
+                    <p className="text-gray-700 mb-4">
+                        Explore our selection of free courses designed to help you enhance your skills and knowledge in various fields.
+                        Whether you're looking to advance your career, learn a new hobby, or simply satisfy your curiosity, our free offerings
+                        provide high-quality education accessible to everyone. Dive into engaging materials and interactive learning experiences
+                        at no cost!
                     </p>
                 </div>
                 <div>
